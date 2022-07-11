@@ -287,7 +287,7 @@ export default function Home() {
             clearInterval(presaleEndedInterval);
           }
         }
-      }, 5 * 1000);
+      }, 1000 * 1000);
 
       // set an interval to get the number of token Ids minted every 5 seconds
       setInterval(async function () {
@@ -337,11 +337,11 @@ export default function Home() {
       return (
         <div>
           <div className={styles.description}>
-            Presale has started!!! If your address is whitelisted, Mint a
-            Crypto Dev 🥳
+            MINT has started!!! If your address is whitelisted, Mint a
+            Fiery Lambo 🥳
           </div>
           <button className={styles.button} onClick={presaleMint}>
-            Presale Mint 🚀
+            Whitelist Mint 🚀
           </button>
         </div>
       );
@@ -366,9 +366,9 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Fiery Lambo!</h1>
           <div className={styles.description}>
-            Its an NFT collection for developers in Crypto.
+          Fiery Lambo is a collection of NFT for the people who dont tend to STOP.
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
@@ -376,12 +376,12 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./cryptodevs/0.svg" />
+          <img className={styles.image} src="./cryptodevs/lambo.jpg" />
         </div>
       </div>
 
       <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
+      Fiery Lambo &#128640;&#128640;
       </footer>
     </div>
   );
