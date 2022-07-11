@@ -375,7 +375,12 @@ export default function Home() {
             {tokenIdsMinted}/20 have been minted
           </div>
           {renderButton()}
+          <br></br>
+          <>
+          minted nft can be viewed in opensea testnet
+        </>
         </div>
+       
         <div>
           <img className={styles.image} src="./lambo/lambo.jpg" />
         </div>
