@@ -368,7 +368,8 @@ export default function Home() {
         <div>
           <h1 className={styles.title}>Welcome to Fiery Lambo!</h1>
           <div className={styles.description}>
-          Fiery Lambo is a collection of NFT for the people who dont tend to STOP.
+          Fiery Lambo is a collection of NFT for the people who dont tend to STOP 	
+&#129304;&#128640;.
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted

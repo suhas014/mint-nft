@@ -1,5 +1,5 @@
 .main {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -50,6 +50,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 111vh;
   }
   .image {
     width: 87%;
