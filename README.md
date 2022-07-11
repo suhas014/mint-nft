@@ -1,4 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+##MINTED NFT ON OPENSEA TESTNET
+![image](https://user-images.githubusercontent.com/76902013/178291814-cef9a613-16a9-4892-aefb-b3580313a1b2.png)
+
 
 ## Getting Started
 
