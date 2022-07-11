@@ -376,7 +376,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./cryptodevs/lambo.jpg" />
+          <img className={styles.image} src="./lambo/lambo.jpg" />
         </div>
       </div>
 
