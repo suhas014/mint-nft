@@ -1,4 +1,4 @@
-export const abi = [
+export const abi =[
   {
     "inputs": [
       {
@@ -155,19 +155,6 @@ export const abi = [
     "name": "approve",
     "outputs": [],
     "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "balance",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -594,4 +581,4 @@ export const abi = [
     "type": "receive"
   }
 ]
-export const NFT_CONTRACT_ADDRESS = "0xE588737969e1bFe8c69BA15b67DC96f9665122F6"
+export const NFT_CONTRACT_ADDRESS = "0xE4060666f8847B173f7867B85B995E1A9a3431AF"
