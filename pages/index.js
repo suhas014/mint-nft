@@ -243,10 +243,11 @@ export default function Home() {
 
     // If user is not connected to the Rinkeby network, let them know and throw an error
     const { chainId } = await web3Provider.getNetwork();
-    if (chainId !== 4) {
-      window.alert("Change the network to Rinkeby");
-      throw new Error("Change network to Rinkeby");
+    if (chainId !== 80001) {
+      window.alert("Change the network to Polygon");
+      throw new Error("Change network to Polygon");
     }
+
 
     if (needSigner) {
       const signer = web3Provider.getSigner();
